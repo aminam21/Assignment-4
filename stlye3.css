@@ -1,0 +1,17 @@
+/* Layout for Grid */
+
+.grid-container{
+    display: inline-grid;
+    grid-template-columns: 660px;
+    grid-template-rows: 890px;
+    background-color: rgb(9, 63, 77);
+}
+
+/* Layout for Flexbox */
+
+.flex-container{
+    display: flex;
+    width: 660px;
+    height: 890px;
+    background-color: rgb(68, 3, 63);
+}

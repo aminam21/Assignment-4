@@ -1,0 +1,30 @@
+/* Layout for Grid */
+
+.grid-container{
+    display: inline-grid;
+    grid-template-columns: 200px 440px;
+    grid-template-rows: 890px;
+    grid-gap: 30px;
+}
+.item1, .item2{
+    background-color: rgb(9, 63, 77);
+}
+
+/* Layout for Flexbox */
+
+.flex-container{
+    display: flex;
+}
+.i1{
+    width: 200px;
+    height: 890px;
+    background-color: rgb(68, 3, 63);
+    margin: 15px;
+    margin-left: 0px;
+}
+.i2{
+    width: 440px;
+    height: 890px;
+    background-color: rgb(68, 3, 63);
+    margin: 15px;
+}

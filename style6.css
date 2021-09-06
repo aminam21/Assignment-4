@@ -1,0 +1,76 @@
+/* Layout for Grid */
+
+.grid-container{
+    display: grid;
+    grid-template-columns: 250px 250px 250px;
+    grid-template-rows: 250px 300px 300px;
+    grid-gap: 30px;
+}
+.grid-container>div{
+    background-color: rgb(9, 63, 77);
+}
+.item1{
+    grid-column: 1 / span 2;
+}
+.item2{
+    grid-row: 1 / span 1;
+    grid-column: 3 / span 1;
+}
+.item3{
+    grid-row: 2 / span 1;
+    grid-column: 1 / span 1;
+}
+
+/* Layout for Flexbox */
+
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.flex1, .flex2, .flex3{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 0px;
+}
+.i1{
+    background-color: rgb(68, 3, 63);
+    width: 530px;
+    height: 250px;
+}
+.i2{
+    background-color: rgb(68, 3, 63);
+    width: 250px;
+    height: 250px;
+    margin: 30px;
+    margin-top: 0px;
+}
+.i3{
+    background-color: rgb(68, 3, 63);
+    width: 250px;
+    height: 300px;
+    margin: 15px;
+    margin-left: 0px;
+    margin-top: 0px;
+}
+.i4, .i5{
+    background-color: rgb(68, 3, 63);
+    width: 250px;
+    height: 300px;
+    margin: 15px;
+    margin-top: 0px;
+}
+.i6{
+    background-color: rgb(68, 3, 63);
+    width: 250px;
+    height: 300px;
+    margin: 15px;
+    margin-left: 0px;
+}
+.i7, .i8{
+    background-color: rgb(68, 3, 63);
+    width: 250px;
+    height: 300px;
+    margin: 15px;
+}
